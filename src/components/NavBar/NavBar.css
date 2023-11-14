@@ -1,5 +1,5 @@
 body {
-        background-color: #1d1d1d;
+        background-color: #171717;
         height: 100vh;
         color: whitesmoke;
         padding: 1rem;
@@ -7,7 +7,6 @@ body {
 
 nav {
         padding: 1rem;
-        text-align: center;
         line-height: 3rem;
 }
 
@@ -16,12 +15,11 @@ nav button {
 }
 
 .greetingStyle {
-        background-color: rgb(54, 75, 67);
-        height: 60vh;
+        background-color: rgb(90, 81, 55);
+        height: 75vh;
         text-align: center;
         font-size: 2.5rem;
         padding-top: 3rem;
-        margin-top: 1rem;
         border-radius: 2rem;
 }
 
@@ -32,4 +30,5 @@ nav button {
         align-items: center;
         gap: 1rem;
         font-size: 1.5rem;
+        margin-top: 6.5rem;
 }

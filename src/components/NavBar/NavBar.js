@@ -1,15 +1,20 @@
 import CartWidget from "../CartWidget/CartWidget"
+import imageLogo from "../../img/logo-negro.png"
 
 const NavBar = () => {
         return (
-                <nav>
-                        <h2> Zelaya Restaurant </h2>
-                        <div>
-                                <button className="button is-light is-primary"> Entradas </button>
-                                <button className="button is-light is-primary"> Principales </button>
-                                <button className="button is-light is-primary"> Postres </button>
+                <nav className="columns">
+                        <figure className="column">
+                                <img src={imageLogo} alt="logo restaurant zelaya"/>
+                        </figure>
+                        <div className="column is-7 is-flex is-justify-content-center is-align-items-center">
+                                <button className="button is-outlined is-warning"> Entradas </button>
+                                <button className="button is-outlined is-warning"> Principales </button>
+                                <button className="button is-outlined is-warning"> Postres </button>
                         </div>
-                        <CartWidget />
+                        <div className="column">
+                                <CartWidget />
+                        </div>
                 </nav>
         )
 }
